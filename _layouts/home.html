@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div id="particles-js text" class="particles-js">
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-family: 'Josefin Slab', sans-serif;">CommonSense America</h1>
+            <h2 style="font-family: 'Roboto', sans-serif;font-size: 1.2em; font-style: italic;">{{- site.tagline | escape -}}</h3>
+            <!--<div id="scroll"><span id="scrolldown" class="arrow"><span></span>Scroll</span></div>-->
+        </div>
+    </div>
+    <div class="about-us index-sections content section" id="firstsection">
+        <h2 class='red-header'>Who are we?</h2>
+        <p>{{- site.about | escape -}}</p>
+    </div>
+    <div class="about-us index-sections content section">
+        <h2 class='red-header'>Get Involved</h2>
+        <p>Our ambassadors are the real heart and soul of CommonSense America. They defend the ideas that made America great with truth and grace by sharing them with others, and many donate their skills to help us grow and reach more people with truth.</p>
+        <p>Join the nationwide movement by <a href="/apply/">becoming an ambassador</a>! Or, take a look at our existing <a href="ambassadors/">ambassadors</a>.</p>
+    </div>
+    <div class="about-us index-sections content section">
+        <h2 class="red-header">Get the Latest</h2>
+        {%- if site.posts.size > 0 -%}
+        <h2 class="post-list-heading">Blog Posts</h2>
+        <ul class="post-list" style="display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;justify-content: space-between;flex-wrap:wrap">
+            {%- for post in site.posts limit:2 -%}
+            <li class="post">
+                <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </h3>
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <p><em>By {{post.author}} on {{ post.date | date: date_format}}</em></p>
+                {%- if site.show_excerpts -%}
+                {{ post.excerpt }}
+                {%- endif -%}
+            </li>
+            {%- endfor -%}
+        </ul>
+        {% else %}
+        <div>There's nothing here! Check back later.</div>
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,39 @@
+---
+title: CommonSense America
+timezone: UTC
+sass:
+  style: compressed
+collections:
+  posts:
+    title: Posts
+    output: true
+    comments: true
+  uploads:
+    title: Uploads
+    output: true
+  ambassadors:
+    title: Ambassadors
+    output: true
+tagline: 'Defend the ideas that make America great with truth and grace.'
+description: 'Helping Americans defend the ideas that make America great with truth and grace.'
+about: 'CommonSense America is the premier organization to equip individual young people to engage in their communities and win over hearts and minds of their peers.'
+baseurl: ''
+url: https://zmontgo.github.io
+logo: 'https://zmontgo.github.io/assets/logo.png'
+show_excerpts: true
+instagram: 'https://www.instagram.com/commonsense_america/'
+twitter: ''
+youtube: ''
+header_pages:
+- index.md
+- about.md
+- blog.md
+- ambassadors.md
+- podcasts.md
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
