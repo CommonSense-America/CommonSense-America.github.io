@@ -36,13 +36,13 @@
         <h2 class="footer-heading">Connect</h2>
         <div class="social-btns">
           {%- if site.instagram != '' -%}
-            <a class="btn instagram"  rel="noopener" rel="noreferrer" href="{{ site.instagram | escape }}" target="_blank"><i class="fab fa-instagram fa-w-1"></i></a>
+            <a class="btn instagram"  rel="noopener" rel="noreferrer" href="{{ site.instagram | escape }}" target="_blank"><i class="fab fa-instagram fa-w-1"></i><span class="sr" hidden>Instagram Account</span></a>
           {%- endif -%}
           {%- if site.twitter != '' -%}
-            <a class="btn twitter" rel="noopener" rel="noreferrer" href="{{ site.twitter | escape }}" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="btn twitter" rel="noopener" rel="noreferrer" href="{{ site.twitter | escape }}" target="_blank"><i class="fab fa-twitter"></i><span class="sr" hidden>Twitter Account</span></a>
           {%- endif -%}
           {%- if site.youtube != '' -%}
-            <a class="btn google" rel="noopener" rel="noreferrer" href="{{ site.youtube | escape }}" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="btn google" rel="noopener" rel="noreferrer" href="{{ site.youtube | escape }}" target="_blank"><i class="fab fa-youtube"></i><span class="sr" hidden>YouTube Account</span></a>
           {%- endif -%}
         </div>
       </div>

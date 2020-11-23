@@ -693,3 +693,8 @@ display: flex;
     justify-content: space-around;
   }
 }
+
+.sr {
+  position: absolute;
+  left: -10000px;
+}
