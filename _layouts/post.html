@@ -9,13 +9,21 @@ layout: default
     <h1 class="post-title p-name red-header" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name">{{ page.author }} on</span>
+        <div style="display:flex;flex-direction: row;align-items: center;margin: 10px 0;">
+          {%- if page.image -%}
+              <img src="{{page.image}}" style="width: 50px;border-radius: 50%;margin:0 10px 0 0;">
+          {%- else -%}
+              <img src="/assets/default.jpg" style="width: 50px;border-radius: 50%;margin:0 10px 0 0;">
+          {%- endif -%}
+          <em>
+            <span class="p-author h-card" itemprop="name">By {{page.author}} on</span>
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              {{ page.date | date: date_format }}
+            </time>
+          </em>
+      </div>
       </span>
-
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
     </p>
   </header>
 
