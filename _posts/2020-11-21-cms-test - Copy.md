@@ -3,7 +3,7 @@ date: 2020-11-21T21:24:13.000+00:00
 layout: post
 comments: true
 title: CMS Test
-main_content: A test of the CMS for blog posts.
+main_content: A test of the CMS for articles.
 categories:
 - things
 - stuff
@@ -12,7 +12,7 @@ author: Zachary Montgomery
 image: "/uploads/zach.png"
 
 ---
-This is a test of the CMS editor, and various features surrounding the blog's functionality.
+This is a test of the CMS editor, and various features surrounding the websites's functionality.
 
 # Big text
 
@@ -56,7 +56,7 @@ Nunc placerat diam nec mauris lacinia volutpat quis quis nibh. Donec risus velit
 
         <div class="index-sections content section">
             <div class="topnav-spacer"></div>
-            <h2 class="red-header">Blog Posts</h2>
+            <h2 class="red-header">Articles</h2>
             <ul class="post-list">
                 <li>
                     <h3>Hi</h3>

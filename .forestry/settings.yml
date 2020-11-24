@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: jekyll-posts
-  label: Blog Posts
+  label: Articles
   create: documents
   templates:
-  - blog-post
+  - article
 - type: directory
   path: _ambassadors
   label: Ambassadors

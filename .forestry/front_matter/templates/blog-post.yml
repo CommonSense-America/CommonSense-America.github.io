@@ -1,5 +1,5 @@
 ---
-label: Blog Post
+label: Article
 hide_body: false
 display_field: title
 fields:
@@ -23,7 +23,7 @@ fields:
   config:
     required: true
   label: Summary
-  description: A summary of the blog post sent in the email.
+  description: A summary of the article sent in the email.
 - type: list
   name: categories
   label: Categories

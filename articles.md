@@ -1,6 +1,6 @@
 ---
 title: Articles
-permalink: "/blog/"
+permalink: "/articles/"
 layout: default
 pagination:
   enabled: true
