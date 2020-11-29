@@ -28,7 +28,6 @@ header_pages:
 - index.md
 - about.md
 - articles.md
-- ambassadors.md
 - podcasts.md
 theme: minima
 plugins:
