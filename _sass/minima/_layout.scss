@@ -698,3 +698,11 @@ display: flex;
   position: absolute;
   left: -10000px;
 }
+
+.pfp-wrapper {
+  max-width: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin:0 10px 0 0;
+}

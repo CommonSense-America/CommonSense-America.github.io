@@ -51,9 +51,9 @@ layout: default
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <div style="display:flex;flex-direction: row;align-items: center;margin: 10px 0;">
                     {%- if post.image -%}
-                        <img src="{{post.image}}" style="width: 50px;border-radius: 50%;margin:0 10px 0 0;">
+                        <div class="pfp-wrapper"><img src="{{post.image}}"></div>
                     {%- else -%}
-                        <img src="/assets/default.jpg" style="width: 50px;border-radius: 50%;margin:0 10px 0 0;">
+                        <div class="pfp-wrapper"><img src="/assets/default.jpg"></div>
                     {%- endif -%}
                     <span><em>By {{post.author}} on {{ post.date | date: date_format}}</em></span>
                 </div>

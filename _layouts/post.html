@@ -11,9 +11,9 @@ layout: default
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <div style="display:flex;flex-direction: row;align-items: center;margin: 10px 0;">
           {%- if page.image -%}
-              <img src="{{page.image}}" style="width: 50px;border-radius: 50%;margin:0 10px 0 0;">
+              <div class="pfp-wrapper"><img src="{{page.image}}"></div>
           {%- else -%}
-              <img src="/assets/default.jpg" style="width: 50px;border-radius: 50%;margin:0 10px 0 0;">
+            <div class="pfp-wrapper"><img src="/assets/default.jpg"></div>
           {%- endif -%}
           <em>
             <span class="p-author h-card" itemprop="name">By {{page.author}} on</span>
@@ -41,5 +41,5 @@ layout: default
 
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
 <script>
-  commentBox('5671414103277568-proj');
+  commentBox('5686275923247104-proj');
 </script>
