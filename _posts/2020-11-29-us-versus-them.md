@@ -1,5 +1,5 @@
 ---
-date: 2020-11-29 00:49:51 +0000
+date: 2020-11-29T00:49:51.000+00:00
 layout: post
 comments: true
 title: Us versus Them
@@ -10,6 +10,10 @@ tags:
 - 'Tribalism '
 author: Grant May
 image: "/uploads/profile-picture.JPG"
+tags:
+- Tribalism
+- Unity
+- Heal
 
 ---
 “As traditional tribes of place evaporate, we rally against common enemies so we can feel part of a team. No institutions command widespread public trust, enabling foreign intelligence agencies to use technology to pick the scabs on our toxic divisions. We’re in danger of half of us believing different facts from the other half, and the digital revolution throws fuel on the fire.” Thus begins Ben Sasse’s book Them: Why We Hate Each Other and How To Heal. While I don't agree with everything Senator Sasse states in his book, I completely agree with him that we have reached a scary point in American politics. People are now willing to say and do things to those they deem their political enemy that decades before would have been unthinkable. There are two key factors contributing to this tribalist mentality: the erosion of our social fabric and the inability to have respectful conversations with members on the other side of the aisle.

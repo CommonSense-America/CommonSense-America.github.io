@@ -25,13 +25,13 @@ fields:
   label: Summary
   description: A summary of the article sent in the email.
 - type: list
-  name: categories
-  label: Categories
+  name: tags
   description: Choose clear and specific categories about this post.
   config:
     use_select: false
-    min: 3
-    max: 6
+    min: 
+    max: 
+  label: Categories
 - type: boolean
   name: comments
   label: Comments
