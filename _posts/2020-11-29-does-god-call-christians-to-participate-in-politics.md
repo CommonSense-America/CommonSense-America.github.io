@@ -11,6 +11,10 @@ categories:
 - Christianity
 author: Emma Dieterle
 image: ''
+tags:
+- Christianity
+- Political Involvement
+- Bible
 
 ---
 Politics is often seen as a separate entity from our entire lives. Politics is not merely a restraint on our corruption after the fall, but it is a central element to our humanity seen from God’s original creation and design. 
