@@ -46,3 +46,5 @@ fields:
 - type: file
   name: image
   label: Author Image
+pages:
+- _posts/the-dangers-of-packing-the-courts.md
