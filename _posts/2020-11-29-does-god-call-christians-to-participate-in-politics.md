@@ -5,7 +5,7 @@ comments: true
 title: Does God call Christians to participate in Politics?
 main_content: Should Christians whose allegiance is to Christ participate in the often
   dirty realm that is politics?
-categories:
+tags:
 - Bible
 - 'Political Involvement '
 - Christianity

@@ -5,7 +5,7 @@ comments: true
 title: The Dangers of Packing the Courts
 main_content: The left has increasingly called for the courts to be packed, what would
   this mean?
-categories:
+tags:
 - Court Packing
 - Leftism
 - Supreme Court

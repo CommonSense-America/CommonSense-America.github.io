@@ -4,7 +4,7 @@ layout: post
 comments: true
 title: Us versus Them
 main_content: Why we hate each other and where do we go from here?
-categories:
+tags:
 - Heal
 - Unity
 - 'Tribalism '
