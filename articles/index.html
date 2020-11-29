@@ -50,10 +50,10 @@ layout: default
                 <p class="article-read-time"><i>{{ readTime }}-minute read.</i></p>
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <div style="display:flex;flex-direction: row;align-items: center;margin: 10px 0;">
-                    {%- if post.image -%}
+                    {%- if post.image != '' -%}
                         <div class="pfp-wrapper"><img src="{{post.image}}"></div>
                     {%- else -%}
-                        <div class="pfp-wrapper"><img src="/assets/default.jpg"></div>
+                        <div class="pfp-wrapper"><img src="/assets/default.jpg" alt=""></div>
                     {%- endif -%}
                     <span><em>By {{post.author}} on {{ post.date | date: date_format}}</em></span>
                 </div>

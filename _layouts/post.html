@@ -10,7 +10,7 @@ layout: default
     <p class="post-meta">
       <span itemprop="author" itemscope itemtype="https://schema.org/Person">
         <div style="display:flex;flex-direction: row;align-items: center;margin: 10px 0;">
-          {%- if page.image -%}
+          {%- if page.image != '' -%}
               <div class="pfp-wrapper"><img src="{{page.image}}"></div>
           {%- else -%}
             <div class="pfp-wrapper"><img src="/assets/default.jpg"></div>
