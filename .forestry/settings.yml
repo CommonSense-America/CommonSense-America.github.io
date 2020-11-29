@@ -6,8 +6,9 @@ webhook_url:
 sections:
 - type: jekyll-posts
   label: Articles
-  create: documents
+  create: all
   templates:
+  - blog-post
   - article
 - type: directory
   path: _ambassadors

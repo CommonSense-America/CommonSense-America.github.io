@@ -8,14 +8,5 @@ fields:
 - type: file
   name: image
   label: image
-- type: number
-  name: age
-  label: age
-- type: text
-  name: state
-  label: state
-- type: text
-  name: quote
-  label: quote
 pages:
 - _ambassadors/susanloomis.md
