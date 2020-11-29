@@ -11,6 +11,10 @@ categories:
 - Supreme Court
 author: Allie Fenter
 image: ''
+tags:
+- Supreme Court
+- " Leftism"
+- Court Packing
 
 ---
 With the tumultuous 2020 election coming to a close, there has been substantial talk about the possibility of the Biden administration ‘packing the courts’. The fact that the Biden campaign has refused to answer whether they would pursue this sort of action if elected is rightly concerning to many. To be clear, packing the courts is the process by which a president nominates more justices with aligning political beliefs than empty seats to the courts. If such action were to be taken, the checks and balances enshrined in the Constitution as well as the representative nature of the government would be undermined.
