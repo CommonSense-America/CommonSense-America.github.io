@@ -29,8 +29,8 @@ fields:
   description: Choose clear and specific categories about this post.
   config:
     use_select: false
-    min: 3
-    max: 6
+    min: 
+    max: 
   label: Categories
 - type: boolean
   name: comments
