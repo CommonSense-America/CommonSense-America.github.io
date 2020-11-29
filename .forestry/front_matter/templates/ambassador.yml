@@ -5,8 +5,7 @@ fields:
 - type: text
   name: name
   label: name
-- type: file
-  name: image
-  label: image
 pages:
+- _ambassadors/Ella Byrnes.md
+- _ambassadors/Emma Dieterle.md
 - _ambassadors/susanloomis.md
