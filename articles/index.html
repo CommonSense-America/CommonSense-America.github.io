@@ -57,9 +57,7 @@ layout: default
                     {%- endif -%}
                     <span><em>By {{post.author}} on {{ post.date | date: date_format}}</em></span>
                 </div>
-                {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-                {%- endif -%}
+                <p>{{ post.main_content }}</p>
             </li>
             {%- endfor -%}
         </ul>
