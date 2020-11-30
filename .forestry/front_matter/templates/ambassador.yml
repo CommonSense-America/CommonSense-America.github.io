@@ -5,6 +5,3 @@ fields:
 - type: text
   name: name
   label: name
-pages:
-- _ambassadors/Ella Byrnes.md
-- _ambassadors/Emma Dieterle.md
