@@ -6,7 +6,7 @@ title: A Tale of Two Trails
 main_content: There are 2 paths. 2 sides, each with a different story.
 tags: []
 author: Peter Burris
-image: ''
+image: "/uploads/peter-burris-picture.PNG"
 
 ---
 There are 2 paths. 2 sides, each with a different story. As you walk down the paths, it becomes clear that many have walked where you do now. Many have fought the same battle. The battle to save the lost art of discussion, the art of communication before it became sour, before it was overruled by inconsequential aggressiveness.
